@@ -1,0 +1,77 @@
+/*CSS*/
+body {
+display: grid;
+
+grid-template-columns: 1fr 1fr 1fr;
+grid-template-rows:  1fr 1fr 1fr;
+grid-area: auto;
+
+height: 100vh;
+
+}
+#c1 { 
+    
+    background-image: url('Dd5z0v6-8f1b17be-b8df-44e2-a888-3f6b427a20f1.webp')
+}
+
+#c2 {
+     
+    background-image: url('kabal.jpg');
+   
+
+}
+
+#c3 {
+    
+    background-image: url('kitana.webp');
+      
+}
+
+#c4{ 
+    
+    background-image: url('Noob_Saibot.png');
+    
+}
+
+#c5{
+   
+ background-image: url('sub.jpg');
+     
+}
+
+#c6{
+    
+    background-image: url('kano.jpg');
+     
+}
+
+#c7{
+   
+    background-image: url('kano.jpg');
+      
+}
+#c8{
+    
+   background-image: url('liu.jpg');
+      
+}
+#c9{
+    
+  background-image: url('Scorpion_MK11.png');
+     
+}
+#c10{
+    
+    background-color: rgb(82, 94, 207);
+     
+}
+#c11{
+    
+    background-color: rgb(38, 15, 102);
+      
+}
+#c12{
+ 
+    background-color: rgb(23, 159, 177);
+     
+}

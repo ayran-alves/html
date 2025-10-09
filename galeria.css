@@ -1,0 +1,13 @@
+body {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 33% 33% 33%;
+    gap: 20px;
+}
+
+div {
+        display: flex;
+        height: auto;
+        flex-direction: column;
+        border: 5px, solid black;
+}
