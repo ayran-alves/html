@@ -1,0 +1,122 @@
+/* Geral */
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+/* Exercício 1 – Botão colorido */
+.botao-colorido {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+.botao-colorido:hover {
+  background-color: #388E3C;
+}
+
+/* Exercício 2 – Crescendo */
+.botao-crescendo {
+  background-color: #2196F3;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+.botao-crescendo:hover {
+  transform: scale(1.2);
+}
+
+/* Exercício 3 – Botão com atraso */
+.botao-com-atraso {
+  background-color: #f44336;
+  color: white;
+  border: 2px solid #f44336;
+  padding: 10px 20px;
+  transition: background-color 0.3s ease 0.5s, color 0.3s ease 0.5s, border-color 0.3s ease 0.5s;
+  cursor: pointer;
+}
+.botao-com-atraso:hover {
+  background-color: white;
+  color: #f44336;
+  border-color: #f44336;
+}
+
+/* Exercício 4 – Cartão de destaque */
+.card {
+  background-color: white;
+  padding: 20px;
+  width: 300px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  text-align: center;
+  transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
+  margin-top: 20px;
+}
+.card:hover {
+  background-color: #f0f0f0;
+  transform: scale(1.05);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+
+.textos p {
+  font-size: 16px;
+  transition: color 0.3s, font-size 0.3s;
+}
+.paragrafo1:hover {
+  color: #e91e63;
+  font-size: 20px;
+}
+.paragrafo2 {
+  transition-delay: 0.5s;
+}
+.paragrafo2:hover {
+  color: #9c27b0;
+  font-size: 20px;
+}
+.paragrafo3:hover {
+  color: #3f51b5;
+  font-size: 20px;
+}
+
+
+
+.imagem-zoom {
+  width: 300px;
+  transition: transform 0.3s ease;
+}
+.imagem-zoom:hover {
+  transform: scale(1.1);
+}
+
+
+.menu {
+  margin-top: 30px;
+  display: flex;
+  gap: 20px;
+}
+.menu a {
+  text-decoration: none;
+  color: #333;
+  position: relative;
+  transition: color 0.3s;
+}
+.menu a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  width: 0;
+  height: 2px;
+  background-color: #333;
+  transition: width 0.3s;
+}
+.menu a:hover {
+  color: #007BFF;
+}
+.menu a:hover::after {
+  width: 100%;
+}
