@@ -1,0 +1,105 @@
+.botao1 {
+    background-color:  rgb(255, 255, 255);
+  
+    transition: 1s  ease-in-out;
+}
+
+.botao1:hover {
+    background-color: yellow;
+   transition: 1s ease-in-out;
+    
+}
+
+
+.botao2:hover {
+    background-color: rgb(177, 5, 5);
+  
+    transition: 1s  ease-in-out;
+}
+
+.botao3:hover {
+    background-color:  rgb(49, 207, 49) ;
+    transition: 1s ease-in-out;
+}
+
+.botao4:active {
+    background-color:rgb(17, 80, 216);
+    transform:  scale(0.90);
+}
+
+input:focus {
+    border: 2px solid rgb(17, 80, 216);
+    outline:  none;
+}
+
+
+.card {
+  width: 250px;
+  padding: 10px;
+  border-radius: 10px;
+  background: #fafafa;
+  text-align: center;
+  transition: all 0.3s;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.card:hover {
+  transform: scale(1.05);
+  background: #f0f8ff;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+
+}
+img {
+    height: 310px;
+    border-radius: 20px;
+
+    
+}
+img {
+  
+  transition: filter 0.3s ease;
+}
+
+img:hover {
+filter: grayscale(100%);
+}
+
+
+.botao5 {
+    background-color:  rgba(59, 61, 59, 0.548) ;
+    transition: 1s ease-in-out;
+}
+
+.botao6:hover {
+    background-color: rgb(10, 159, 209)
+}
+
+.botao7:active {
+    background-color: rgb(10, 159, 209);
+    transform: scale(0.90);
+    
+}
+input:focus {
+    border: 2px solid rgb(17, 80, 216);
+    outline:  none;
+}
+
+
+input:focus {
+    border: 2px solid rgb(17, 80, 216);
+    outline:  none;
+
+}
+.botao8:hover   {
+    background-color: blue;
+
+
+}
+
+.botao8:active {
+    transform: scale(0.85);
+}
